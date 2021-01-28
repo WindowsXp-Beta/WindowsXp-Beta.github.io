@@ -1,0 +1,15 @@
+ul,ol,h1,h2,a {
+    text-align: center;
+    color: whitesmoke;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #47331E;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
