@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang='zh' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>LaTeX笔记 | WindowsXp</title>
+<link rel="stylesheet" href="https://sjtu-windowsxp.github.io/css/eureka.min.css">
+<script defer src="https://sjtu-windowsxp.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://sjtu-windowsxp.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sjtu-windowsxp.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="$\LaTeX$学习笔记 获取帮助文档 在terminal中输入 texdoc 宏包的名字 注释 % 段注释：\iffalse……\fi 导言区 %导言区 \documentclass[]{article} %report letter book…… %ctexart ctexbook ctexreport">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Posts",
+      "item":"https://sjtu-windowsxp.github.io/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"LaTeX笔记",
+      "item":"https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/"
+    },
+    "headline": "LaTeX笔记 | WindowsXp","datePublished": "2021-02-01T23:16:01+08:00",
+    "dateModified": "2021-02-01T23:16:01+08:00",
+    "wordCount":  5653 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://sjtu-windowsxp.github.io/images/icon.png"
+        }
+        },
+    "description": "$\\LaTeX$学习笔记 获取帮助文档 在terminal中输入 texdoc 宏包的名字 注释 % 段注释：\\iffalse……\\fi 导言区 %导言区 \\documentclass[]{article} %report letter book…… %ctexart ctexbook ctexreport"
+}
+</script><meta property="og:title" content="LaTeX笔记 | WindowsXp" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://sjtu-windowsxp.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/" />
+
+
+
+
+<meta property="og:description" content="$\LaTeX$学习笔记 获取帮助文档 在terminal中输入 texdoc 宏包的名字 注释 % 段注释：\iffalse……\fi 导言区 %导言区 \documentclass[]{article} %report letter book…… %ctexart ctexbook ctexreport" />
+
+
+
+
+<meta property="og:locale" content="zh" />
+
+
+
+
+<meta property="og:site_name" content="WindowsXp" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-02-01T23:16:01&#43;08:00" />
+
+
+<meta property="article:modified_time" content="2021-02-01T23:16:01&#43;08:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">WindowsXp</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/authors/wxp/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">关于我</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">文章</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">文档</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script></div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2  lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">LaTeX笔记</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-02-01</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>12分钟阅读时长</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <h2 id="latex学习笔记">$\LaTeX$学习笔记</h2>
+<h3 id="获取帮助文档">获取帮助文档</h3>
+<p>在terminal中输入 <code>texdoc</code> 宏包的名字</p>
+<h3 id="注释">注释</h3>
+<p><code>%</code>
+段注释：<code>\iffalse……\fi</code></p>
+<h3 id="导言区">导言区</h3>
+<pre><code class="language-LaTeX">%导言区
+\documentclass[]{article}
+%report letter book……   
+%ctexart ctexbook ctexreport 用这个类就不用usepackage{ctex}了
+\usepackage[宏包选项]{宏包名}%可以一次性调用多个宏包，中间用逗号间隔。
+\title{……}
+\author{……}
+\date{……}     \today
+</code></pre>
+<p><code>documentclass</code>[ ]中可指定选项</p>
+<ul>
+<li><code>10pt, 11pt, 12pt</code> 指定文档的基本字号。默认为 <code>10pt</code>。</li>
+<li><code>a4paper, letterpaper, … </code>指定纸张大小，默认为美式信纸 <code>letterpaper</code> （8:5 × 11 英寸）。
+可指定选项还包括 <code>a5paper， b5paper， executivepaper 和 legalpaper</code>。</li>
+<li><code>twoside, oneside</code> 指定单面/双面排版。双面排版时，奇偶页的页眉页脚、页边距不同。 <code>article</code>和 <code>report</code> 默认为 oneside， book 默认为 twoside。</li>
+<li><code>onecolumn</code>, <code>twocolumn</code> 指定单栏/双栏排版。默认为 <code>onecolumn</code>。</li>
+<li><code>openright</code>, <code>openany</code> 指定新的一章 <code>\chapter</code> 是在奇数页（右侧）开始，还是直接紧跟着上一页开始。 <code>report</code> 默认为 <code>openany</code>， <code>book</code> 默认为 <code>openright</code>。对 <code>article</code> 无效。</li>
+<li><code>landscape</code> 指定横向排版。默认为纵向。</li>
+<li><code>titlepage, notitlepage</code> 指定标题命令 <code>\maketitle</code> 是否生成单独的标题页。 <code>article</code> 默认为</li>
+<li><code>notitlepage， report 和 book</code> 默认为 <code>titlepage</code>。</li>
+<li><code>fleqn</code> 令行间公式左对齐。默认为居中对齐。</li>
+<li><code>leqno</code> 将公式编号放在左边。默认为右边。</li>
+<li><code>draft, final</code> 指定草稿/终稿模式。草稿模式下，断行不良的地方会在行尾添加一个黑色方块。默认为 final。</li>
+</ul>
+<h3 id="latex-中的宏">$\LaTeX$ 中的宏</h3>
+<h4 id="命令">命令</h4>
+<p>命令通常以反斜线开头，可以带零到多个参数。命令也可以是直接输出某种结果；也可以改变一个状态，此时$\LaTeX$用花括号 {} 分组或环境作为状态改变的作用域。
+例如 <code>\em abc</code> 改变字体以强调一些文字，得到 <code>abc</code>；而带参数的命令 \emph{abc} 可得到同样的效果。</p>
+<h4 id="环境">环境</h4>
+<p>环境的格式为
+<code>\begin{env}</code>
+环境的内容
+<code>\end{env}</code>
+例如对齐环境：</p>
+<pre><code class="language-LaTeX"> \begin{center} … \end{center} %居中
+ \begin{flushleft} … \end{flushleft} %左对齐
+ \begin{flushright} … \end{flushright} %右对齐
+</code></pre>
+<h4 id="设置页面参数">设置页面参数</h4>
+<p><code>geometry</code>宏包
+比如设置 $\textbf{Microsoft Word}$ 习惯的A4页面
+<code>\usepackage[left=1.25in,right=1.25in,top=1in,bottom=1in]{geometry}</code></p>
+<h2 id="正文">正文</h2>
+<h3 id="各种符号输入">各种符号输入</h3>
+<p><code># $ % { } \ &amp; _ ^ ~ </code>需要转义输入，即符号前加上<code>\</code>输入，其中，<code>\^{},\~{}</code>应如此输入，不然会被当成重音效果。又因为<code>\\</code>表示换行，所以<code>\</code>需以<code>\textbackslash</code>输入。
+双引号<code>“”</code>：<code>``''</code>
+空格：<code>~</code>用于产生一个不会断行的空格。
+具体参考symbols文档。</p>
+<blockquote>
+<p>希腊字母
+\alpha产生字符α;\beta产生字符β；\gamma产生字符γ；\delta产生字符δ;\epsilon产生字符ε; \zeta产生字符ζ；\eta产生字符η;\theta产生字符9; \iota产生字符$\iota$；\kappa产生字符κ；\1ambda产生字符λ；\mu产生字符μ；\xi产生字符ξ：\nu产生字符ν；\o产生字符o； \pi产生字符π；\ rho产生字符ρ；\sigma产生字符σ；\tau产生字符$\tau$;\upsilon产生字符υ；\phi产生字符Φ；\chi产生字符Χ；\psi产生字 符Ψ；\omega产生字符ω。<strong>大写希腊字母即将首字母大写（如\Alpha产生 $\Alpha$）。</strong></p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200726214828517.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjAwMTcyMg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="数学公式">数学公式</h3>
+<p><a href="http://latex.codecogs.com/eqneditor/editor.php">生成LaTeX数学公式</a></p>
+<h4 id="行内inline公式">行内（inline）公式</h4>
+<p>使用一对符号<code>$ $</code> 来标示。如 <code>$a+b=c$</code>。</p>
+<h4 id="显示display公式">显示（display）公式</h4>
+<p>简单的不编号公式用命令 <code>\[</code> 和 <code>\]</code> 标示。（不要使用双美元符号 <code>$$ $$</code>）
+基本的编号的公式用 equation 环境。
+更复杂的结构，使用 amsmath 宏包提供的专门的数学环境。（不要使用 eqnarray 环境）
+一些其他手段</p>
+<pre><code class="language-LaTeX">\begin{displaymath}
+a+b=b+a
+\end{displaymath}
+</code></pre>
+<p>多行公式：(lshort-zh-cn p44-p45)</p>
+<pre><code class="language-LaTeX">\usepackage{amsmath}
+\usepackage{amssymb}
+</code></pre>
+<p>在document中</p>
+<pre><code class="language-LaTeX">\begin{gather(gather*不带编号的多行公式)}
+a+b=b+a\\ 
+%用\\进行换行，换行公式即带上编号，一个公式内部也可换行
+......
+\end{gather(gather*)}
+</code></pre>
+<p>或者使用<code>\notag</code>阻止编号</p>
+<pre><code class="language-LaTeX">\begin{align(align*不带编号)}
+x &amp;=......%按照&amp;进行对齐
+y &amp;=......
+\end{align(align*)}
+</code></pre>
+<h4 id="数组和矩阵">数组和矩阵</h4>
+<p>(lshort-zh-cn p45-p46)
+例：</p>
+<pre><code class="language-LaTeX">\[ \mathbf{X} = \left(
+\begin{array}{cccc}
+x_{11} &amp; x_{12} &amp; \ldots &amp; x_{1n}\\
+x_{21} &amp; x_{22} &amp; \ldots &amp; x_{2n}\\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots\\
+x_{n1} &amp; x_{n2} &amp; \ldots &amp; x_{nn}\\
+\end{array} \right) \]
+</code></pre>
+<p>$$ \mathbf{X} = \left(
+\begin{array}{cccc}
+x_{11} &amp; x_{12} &amp; \ldots &amp; x_{1n}\<br>
+x_{21} &amp; x_{22} &amp; \ldots &amp; x_{2n}\<br>
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots\<br>
+x_{n1} &amp; x_{n2} &amp; \ldots &amp; x_{nn}\<br>
+\end{array} \right)
+$$</p>
+<pre><code class="language-LaTeX">\[ |x| = \left\{
+\begin{array}{rl}
+-x &amp; \text{if } x &lt; 0,\\
+0 &amp; \text{if } x = 0,\\
+x &amp; \text{if } x &gt; 0.
+\end{array} \right. \]
+</code></pre>
+<p>$$ |x| = \left{
+\begin{array}{rl}
+-x &amp; \text{if } x &lt; 0,\<br>
+0 &amp; \text{if } x = 0,\<br>
+x &amp; \text{if } x &gt; 0.
+\end{array} \right. $$
+其实amsmath还提供了<code>cases</code>环境来制造这种效果</p>
+<pre><code class="language-LaTeX">\[ |x| =
+\begin{cases}
+-x &amp; \text{if } x &lt; 0,\\
+0 &amp; \text{if } x = 0,\\
+x &amp; \text{if } x &gt; 0.
+\end{cases} \]
+</code></pre>
+<p>$$ |x| =
+\begin{cases}
+-x &amp; \text{if } x &lt; 0,\<br>
+0 &amp; \text{if } x = 0,\<br>
+x &amp; \text{if } x &gt; 0.
+\end{cases} $$</p>
+<h4 id="定理环境">定理环境</h4>
+<p>(lshort-zh-cn p49-p51)</p>
+<h4 id="数学字体">数学字体</h4>
+<p><img src="https://img-blog.csdnimg.cn/20200726214936161.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjAwMTcyMg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h4 id="数学符号尺寸">数学符号尺寸</h4>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA3LzI2L2FwcXJzSC5wbmc?x-oss-process=image/format,png" alt="apqrsH.png"></p>
+<h4 id="数学重音">数学重音</h4>
+<p><img src="https://img-blog.csdnimg.cn/20200726215020299.jpg" alt="在这里插入图片描述"></p>
+<h4 id="普通符号">普通符号</h4>
+<p><code>\infty</code>$\infty$
+<code>\angle</code>$\angle$
+<code>$${\lim_{x \to \infty}$$</code>
+$$\lim_{x \to \infty}$$</p>
+<h4 id="二元运算符">二元运算符</h4>
+<p><code>$a \gg b$</code> $a \gg b$<br>
+<code>$a \ll b$</code>	$a \ll b$
+<code>\approx</code> $\approx$
+<code>\geq</code> $\geq$
+<code>\leq</code> $\leq$
+<img src="https://img-blog.csdnimg.cn/20200726215110795.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjAwMTcyMg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h4 id="大型运算符">大型运算符</h4>
+<p><img src="https://img-blog.csdnimg.cn/20200726215140493.jpg" alt="在这里插入图片描述"></p>
+<p>巨算符的上下标位置可由 <code>\limits</code> 和 <code>\nolimits</code> 控制，前者令巨算符类似 $\lim$ 或求和算符 $\sum$，上下标位于上下方；后者令巨算符类似积分号，上下标位于右上方和右下方。还可以利用<code>\substack</code>命令或<code>subarray</code>环境，在下限位置书写多行表达式，后者更是提供了左对齐和居中选项。(lshort-zh-cn p42)</p>
+<h4 id="定界符">定界符</h4>
+<p><img src="https://img-blog.csdnimg.cn/20200726215156976.jpg" alt="在这里插入图片描述"></p>
+<h4 id="括号">括号</h4>
+<p>使用 <code>\left</code>, <code>\right</code> 放大，如大小可变的大括号为<code>\left\{...\right\}</code></p>
+<blockquote>
+<p>圆括号，小括号	\left( \frac{a}{b} \right)
+方括号，中括号	\left[ frac{a}{b} \right]
+花括号，大括号	\left{ \frac{a}{b} \right}
+角括号	\left \langle \frac{a}{b} \right \rangle
+单竖线，绝对值	\left| \frac{a}{b} \right|
+双竖线  	\left | \frac{a}{b} \right |
+取整函数   \left \lfloor \frac{a}{b} \right \rfloor
+取顶函数  \left \lceil \frac{c}{d} \right \rceil</p>
+</blockquote>
+<h4 id="标点">标点</h4>
+<p>逗号、分号（<code>\colon</code>）</p>
+<h3 id="科技公式">科技公式</h3>
+<h4 id="单位">单位</h4>
+<p>宏包<code>siunitx</code></p>
+<pre><code class="language-LaTeX">\num{-1.235e96} \\
+\SI{299792458}{m/s} \\
+\SI{2x7x3.5}{m}
+</code></pre>
+<p>效果</p>
+<blockquote>
+<p>−1.235 × $10^{96}$
+299 792 458 m/s
+2 m × 7 m × 3.5 m</p>
+</blockquote>
+<h4 id="化学式">化学式</h4>
+<p>宏包<code>chemformula</code></p>
+<pre><code class="language-LaTeX">\ce{2 H2 + O2 -&gt; 2 H2O}\\
+\ce{2H2O -&gt; 2 H2 ^ + O2 ^}
+</code></pre>
+<h3 id="列表与文本块">列表与文本块</h3>
+<h4 id="列表">列表</h4>
+<ul>
+<li>enumerate 编号</li>
+</ul>
+<pre><code class="language-LaTeX">\begin{enumerate}
+\item ...
+\item ...
+\item ...
+\end{enumerate}
+</code></pre>
+<p>列表可以嵌套，最多嵌套四层。</p>
+<ul>
+<li>itemize 不编号</li>
+<li>description 有标题 <code>关键字环境</code></li>
+</ul>
+<pre><code class="language-LaTeX">\begin{description}
+\item[⟨item title⟩] …
+\end{description}
+</code></pre>
+<h4 id="插入代码">插入代码</h4>
+<h5 id="单行代码">单行代码</h5>
+<p><code>\verb|#include &lt;stdio.h&gt;|</code>
+效果：<code>#include&lt;stdio.h&gt;</code></p>
+<h5 id="多行代码">多行代码</h5>
+<pre><code class="language-LaTeX">\begin{verbatim}
+#include &lt;stdio&gt;
+main() {
+puts(&quot;hello world.&quot;);
+}
+\end{verbatim}
+</code></pre>
+<h5 id="带语法高亮的代码">带语法高亮的代码</h5>
+<p>宏包<code>listings</code></p>
+<pre><code class="language-LaTeX">\lstset{
+    language=(C,C++),basicstyle=\ttfamily}
+\begin{lstlisting}
+#include &lt;stdio&gt;
+int main() {
+puts(&quot;hello world.&quot;);
+}
+\end{lstlisting}
+</code></pre>
+<p>具体见帮助文档</p>
+<h4 id="引用">引用</h4>
+<p><code>quote</code> 用于引用较短的文字，首行不缩进； <code>quotation</code> 用引用若干段文字，首行缩进。引用环境较一般文字有额外的左右缩进。</p>
+<h4 id="脚注">脚注</h4>
+<p><code>\footnote{脚注内容}</code>有些时候可能无法使用<code>\footnote</code>，比如<code>parbox</code>环境或是表格，这时需使用<code>\footnotemark</code>和<code>\footnotetext</code>进行脚注。</p>
+<h3 id="图表与浮动环境">图表与浮动环境</h3>
+<h4 id="表格">表格</h4>
+<p><a href="https://www.tablesgenerator.com/latex_tables">生成表格LaTeX代码</a>
+基本代码
+<img src="https://img-blog.csdnimg.cn/20200726215220833.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjAwMTcyMg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>(tabular){l | c | c | c | r}｜表示表格竖线 l 左对齐 c 居中对齐 r 右对齐
+不同列间用&amp;号分隔
+\hline插入换行（两个hline是双横线)</p>
+</blockquote>
+<blockquote>
+<p>插入空格
+两个quad空格	<code>a \qquad b</code>		两个m的宽度
+quad空格	<code>a \quad b</code>		一个m的宽度
+大空格	<code>a \ b</code>		1/3m宽度
+中等空格	<code>a \; b</code>		2/7m宽度
+小空格	<code>a \, b</code>		1/6m宽度
+没有空格	<code>ab</code>	
+紧贴	<code>a \! b</code>		缩进1/6m宽度
+这也是数学模式中插入空格的方法。</p>
+</blockquote>
+<p>功能各异的表格宏包
+单元格处理： multirow、 makecell
+长表格： longtable、 xtab
+定宽表格： xtabular
+表线控制： booktabs、 hhline、 arydshln
+表列格式： array
+综合应用： tabu</p>
+<h4 id="插入图片">插入图片</h4>
+<p>LaTeX插入图片：</p>
+<pre><code class="language-LaTeX">\begin{figure}[h] 
+%figure环境，h默认参数是可以浮动，不是固定在当前位置。
+%如果要不浮动，你就可以使用大写float宏包的H参数，固定图片在当前位置，禁止浮动。
+\centering %使图片居中显示
+\includegraphics[width=1\textwidth]{wolf} 
+%中括号中的参数是设置图片充满文档的大小，你也可以使用小数来缩小图片的尺寸。
+\caption{狼伴归途} %caption是用来给图片加上图题的
+\label{wolf} %这是添加标签，方便在文章中引用图片。
+\end{figure}%figure环境
+</code></pre>
+<h3 id="浮动体">浮动体</h3>
+<p>其实在上面插入表格和图片的时候已经接触到了，浮动体有以下环境。</p>
+<ul>
+<li>figure 环境</li>
+<li>table 环境</li>
+<li>其他环境可以使用 float 宏包得到</li>
+</ul>
+<pre><code class="language-LaTeX">\begin{table}[!htbp]
+!-忽略“美学”标准
+h-here
+t-top
+b-bottom
+p-page-of-its-own
+\caption[在目录中使用短标题]{题}%并带上编号
+\label{} %紧跟\label命令进行交叉引用。
+</code></pre>
+<h3 id="盒子">盒子</h3>
+<p>(lshort-zh-cn p31-p33)
+<code>\mbox</code> 生成一个基本的水平盒子，内容只有一行，不允许分段（除非嵌套其它盒子，比如后文的垂直盒子）。外表看上去， <code>\mbox</code> 的内容与正常的文本无二，不过断行时文字不会从盒子里断开。<code>\makebox[⟨width⟩][⟨align⟩]{…}</code> 更进一步，可以加上可选参数用于控制盒子的宽度 ⟨width⟩，以及内容的对齐方式⟨align⟩，可选居中 c（默认值）、左对齐 l、右对齐 r 和分散对齐 s。
+<code>\fbox</code> 和 <code>\framebox</code> 让我们可以为水平盒子添加边框。可以通过 \setlength 命令调节边框的宽度 \fboxrule 和内边距 \fboxsep。
+在垂直盒子中文字可以换行。
+标尺盒子用来画一个实心的矩形盒子，也可适当调整以用来画线（标尺）。
+以下命令构造一个带背景色和有色边框的盒子， ⟨fcode⟩ 或 ⟨fcolor-name⟩ 用于设置边框颜色</p>
+<h3 id="自动化工具">自动化工具</h3>
+<h4 id="自动生成目录">自动生成目录</h4>
+<p><code>\tableofcontents</code> 按<code>\chapter \section</code>等自动生成目录
+<code>\listoffigures</code> 生成图片目录
+<code>\listoftables</code> 生成表格目录</p>
+<h4 id="交叉引用">交叉引用</h4>
+<p>在能够被交叉引用的地方，如章节、公式、图表、定理等位置使用 \label 命令：<code>\label{⟨label-name⟩}</code>
+之后可以在别处使用 \ref 或 \pageref 命令，分别生成交叉引用的编号和页码：<code>\ref{⟨label-name⟩} \pageref{⟨label-name⟩}</code>可以在命令前用<code>~</code>来产生一个空格。</p>
+<blockquote>
+<p>\label 命令可用于记录各种类型的交叉引用，使用位置分别为：
+章节标题 在章节标题命令 \section 等之后紧接着使用。
+行间公式 单行公式在公式内任意位置使用；多行公式在每一行公式的任意位置使用。
+有序列表 在 enumerate 环境的每个 \item 命令之后、下一个 \item 命令之前任意位置使用。
+图表标题 在图表标题命令 \caption 之后紧接着使用。
+定理环境 在定理环境内部任意位置使用</p>
+</blockquote>
+<h4 id="pdf链接与书签">pdf链接与书签</h4>
+<p>宏包<code>hyperref</code>提供了命令 <code>\hypersetup</code> 配置各种参数。参数也可以作为宏包选项，在调用宏包时指定：
+<code>\hypersetup{⟨option1⟩,⟨option2⟩={value},…}</code>
+<code>\usepackage[⟨option1⟩,⟨option2⟩={value},…]{hyperref}</code>
+为避免冲突，<code>hyperref</code>一般在最后调用。</p>
+<h5 id="超链接">超链接</h5>
+<p><code>\url{⟨url⟩}</code> 有色彩的超链接
+<code>\nolinkurl{⟨url⟩}</code> 无色彩
+<code>\href{URL}{文字}</code> 将一段文字作为超链接
+默认的超链接在文字外边加上一个带颜色的边框（在打印 PDF 时边框不会打印），可指定colorlinks 参数修改为将文字本身加上颜色，或修改 pdfborder 参数调整边框宽度以“去掉”边框； hidelinks 参数则令超链接既不变色也不加边框。</p>
+<pre><code class="language-LaTeX">\hypersetup{hidelinks}
+% or:
+\hypersetup{pdfborder={0 0 0}}
+</code></pre>
+<h5 id="书签">书签</h5>
+<p>hyperref 宏包另一个强大的功能是为 PDF 生成书签。对于章节命令 <code>\chapter</code>、<code> \section</code>等，默认情况下会为 PDF 自动生成书签。</p>
+<h4 id="bibtex引用">bibtex引用</h4>
+<p>文献数据库是以.bib结尾的文本文件。在.tex源文件中，需要做好以下三件事</p>
+<h5 id="操作1">操作1</h5>
+<p>使用<code>\bibliographystyle{}</code>命令设定参考文献格式。格式包括：<code>plain</code>,<code>unsrt</code>,<code>alpha</code>,<code>abbrv</code>。</p>
+<h5 id="操作2">操作2</h5>
+<p>使用<code>\cite{}</code>命令，引用需要的参考文献。大括号中是参考文献的引用标签。</p>
+<h5 id="操作3">操作3</h5>
+<p>使用<code>\bibliography{}</code>命令指明要使用的数据库。大括号中是数据库名，可以有多个，指定数据库名时不带<code>.bib</code>后缀。
+$\LaTeX$将在这条命令的位置插入参考文献列表。</p>
+<h3 id="设计文档格式">设计文档格式</h3>
+<p>基本思想：
+<strong>格式与内容分离，填内容的时候不要在意格式。</strong>
+<strong>导言区写格式，正文区写内容。</strong>
+直接设置相关参数。如设置
+<code>\parindent</code> 段首缩进量
+<code>\parskip</code> 两段间垂直间距
+<code>\linespread</code> 几倍行距
+<code>\pagestyle</code> 页眉页脚格式
+修改部分命令定义。如修改 <code>\thesection、 \labelenumi、 \descriptionlabel、 \figurename</code>。
+利用工具宏包完成设置。如使用 <code>ctex</code> 宏包设置中文格式，使用
+<code>tocloft</code> 宏包设置目录格式。
+格式与内容的分离不仅需要格式设计者的努力，也需要作者在填写内容时遵循分离原则。基本的方法就是只使用与内容相关的命令和环境。</p>
+<blockquote>
+<p>推荐： It is \emph{important}.
+不好： It is \textit{important}.
+推荐： \caption{流程图}
+不好： \textbf{图 1:} 流程图</p>
+</blockquote>
+<h4 id="字体">字体</h4>
+<h5 id="英文">英文</h5>
+<p><code>\textrm{内容}</code>罗马字体<br>
+<code>\textsf{内容}</code>无衬线字体<br>
+<code>\texttt{内容}</code>打字机字体
+或者使用字体声明<br>
+<code>\rmfamily</code> 罗马<br>
+<code>\sffamily</code> 无衬线
+<code>\ttfamily</code> 打字机
+声明后内容全部为该字体直到遇到下一个字体声明或用大括号划定范围</p>
+<h5 id="中文">中文</h5>
+<p>ctex宏包中
+<code>\songti</code> 宋体
+<code>\kaishu</code> 楷书
+<code>\heiti</code> 黑体
+<code>\fangsong</code> 仿宋</p>
+<p>设置字体粗细
+<code>\textmd{} or \mdseries{}</code>中等权重
+<code>\textbf{} or \bfseries</code> 粗体
+设置字体形状
+<code>\textup{}</code>  <code>\upshape</code> 直立
+<code>\textit{}</code>  <code>\itshape</code> 斜体
+<code>\textsl{}</code>  <code>\slshape</code> 伪斜体
+<code>\textsc{}</code>  <code>\scshape</code> 小型大写
+<code>\textnormal{}</code> <code>\normalfont</code>字体属性的默认值，即中等权重的直立罗马字体
+<code>\emph{}</code> <code>\em</code> 强调字体</p>
+<h4 id="字号">字号</h4>
+<h5 id="英文-1">英文</h5>
+<pre><code class="language-LaTeX">\tiny      \scriptsize      \footnotesize 
+\small       \normalsize      \large      
+\Large     \LARGE      \huge      \Huge
+</code></pre>
+<h5 id="中文-1">中文</h5>
+<p><code>\zihao{}</code>
+<img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA3LzIzL1VPYjRXbi5wbmc?x-oss-process=image/format,png" alt="UOb4Wn.png"></p>
+<h4 id="对齐">对齐</h4>
+<p><code>\centering</code> 居中
+<code>\raggedleft</code> 左对齐
+<code>\raggedright</code> 右对齐</p>
+<h4 id="空白间距">空白间距</h4>
+<pre><code>`\hspace{2cm}`
+`\vspace{3cm}`
+</code></pre>
+<h4 id="版面设置">版面设置</h4>
+<p>设置纸张的宏包
+<code>geometry</code>
+简单应用</p>
+<pre><code class="language-LaTeX">\usepackage[a4paper, left = 2cm, right = 2cm]{geometry} 
+%设置A4格式
+</code></pre>
+<p>设置页眉页脚的宏包<code>fancydr</code>
+分页断行
+<code>\newpage \clearpage</code> 分页
+<code>\inebreak \\</code> 换行</p>
+<h3 id="自定义命令和环境">自定义命令和环境</h3>
+<p>一般在导言区中进行
+<code>\newcommand&lt;命令&gt;[&lt;参数个数&gt;][&lt;首选数默认值&gt;]{&lt;具体定义&gt;}</code>
+例：<code>\newcommand\PRC{People's Republic of \emph{China}}</code>在正文区只要使用<code>\PRC</code>即可。
+这个命令有两个参数，第一个 ⟨name⟩ 是你想要建立的命令的名称（带反斜杠），第二个⟨definition⟩ 是命令的定义。方括号里的参数 ⟨num⟩ 是可选的，用于指定新命令所需的参数数目（最多 9 个）。如果缺省可选参数，默认就是 0，也就是新建的命令不带任何参数。
+在命令的定义中，标记 <code>#1</code> 代表指定的参数。如果想使用多个参数，可以依次使用 <code>#2、……、 #9</code> 等标记</p>
+<h3 id="标题">标题</h3>
+<h4 id="章节标题">章节标题</h4>
+<h4 id="浮动标题">浮动标题</h4>
+<p><code>caption</code> 宏包</p>
+<h3 id="列表环境">列表环境</h3>
+<p><code>enumitem</code> 宏包</p>
+<h2 id="sjtu模板使用记录持续更新">sjtu模板使用记录（持续更新）</h2>
+<ol>
+<li>浮动体中去除图片的英文注释用<code>\caption</code>替换<code>\bicaption</code>。</li>
+<li>去除空白页，在<code>documentclass</code>选项中选择<code>oneside</code></li>
+<li>使用 <code>\cite{key1,key2,key3...}</code> 可以产生“上标引用的参考文献”，如 <code>\cite{Meta_CN,chen2007act,DPMG}</code>。使用<code>\parencite{key1,key2,key3...}</code> 则可以产生水平引用的参考文献。当需要将参考文献条目加入到文献表中但又不在正文中引用，可以使用<code>\nocite{key1,key2,key3...}</code>。使用 <code>\nocite{*}</code> 可以将参考文献数据库中的所有条目加入到文献表中。</li>
+<li>设置<code>twoside</code>参数后，前言部分及不同部分直接便会有空白页。</li>
+</ol>
+<h2 id="一些小tips">一些小tips</h2>
+<h4 id="heading">%</h4>
+<p>%引申出的另一个比较常用的用法是，分割不允许有空格或分行的较长文本例如：</p>
+<pre><code class="language-LaTeX">This is an % start
+% Better: instructive &lt;---
+example: Supercal% 
+ifragilist% 
+icexpialidocious
+</code></pre>
+<p>结果为：</p>
+<blockquote>
+<p>This is an example: Supercalifragilisticexpialidocious</p>
+</blockquote>
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">下一页</span>
+        <a href="https://sjtu-windowsxp.github.io/posts/hello-world/" class="block">Hello World</a>
+        
+    </div>
+</div>
+
+        
+    </div>
+    
+    <div class="col-span-2">
+        
+        
+        <div class="sticky top-16 z-10 hidden lg:block px-6 py-4  bg-primary-bg ">
+    <span class="text-lg font-semibold">本页内容</span>
+</div>
+<div class="sticky-toc hidden lg:block px-6 pb-6 ">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#latex学习笔记">$\LaTeX$学习笔记</a>
+      <ul>
+        <li><a href="#获取帮助文档">获取帮助文档</a></li>
+        <li><a href="#注释">注释</a></li>
+        <li><a href="#导言区">导言区</a></li>
+        <li><a href="#latex-中的宏">$\LaTeX$ 中的宏</a>
+          <ul>
+            <li><a href="#命令">命令</a></li>
+            <li><a href="#环境">环境</a></li>
+            <li><a href="#设置页面参数">设置页面参数</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#正文">正文</a>
+      <ul>
+        <li><a href="#各种符号输入">各种符号输入</a></li>
+        <li><a href="#数学公式">数学公式</a>
+          <ul>
+            <li><a href="#行内inline公式">行内（inline）公式</a></li>
+            <li><a href="#显示display公式">显示（display）公式</a></li>
+            <li><a href="#数组和矩阵">数组和矩阵</a></li>
+            <li><a href="#定理环境">定理环境</a></li>
+            <li><a href="#数学字体">数学字体</a></li>
+            <li><a href="#数学符号尺寸">数学符号尺寸</a></li>
+            <li><a href="#数学重音">数学重音</a></li>
+            <li><a href="#普通符号">普通符号</a></li>
+            <li><a href="#二元运算符">二元运算符</a></li>
+            <li><a href="#大型运算符">大型运算符</a></li>
+            <li><a href="#定界符">定界符</a></li>
+            <li><a href="#括号">括号</a></li>
+            <li><a href="#标点">标点</a></li>
+          </ul>
+        </li>
+        <li><a href="#科技公式">科技公式</a>
+          <ul>
+            <li><a href="#单位">单位</a></li>
+            <li><a href="#化学式">化学式</a></li>
+          </ul>
+        </li>
+        <li><a href="#列表与文本块">列表与文本块</a>
+          <ul>
+            <li><a href="#列表">列表</a></li>
+            <li><a href="#插入代码">插入代码</a>
+              <ul>
+                <li><a href="#单行代码">单行代码</a></li>
+                <li><a href="#多行代码">多行代码</a></li>
+                <li><a href="#带语法高亮的代码">带语法高亮的代码</a></li>
+              </ul>
+            </li>
+            <li><a href="#引用">引用</a></li>
+            <li><a href="#脚注">脚注</a></li>
+          </ul>
+        </li>
+        <li><a href="#图表与浮动环境">图表与浮动环境</a>
+          <ul>
+            <li><a href="#表格">表格</a></li>
+            <li><a href="#插入图片">插入图片</a></li>
+          </ul>
+        </li>
+        <li><a href="#浮动体">浮动体</a></li>
+        <li><a href="#盒子">盒子</a></li>
+        <li><a href="#自动化工具">自动化工具</a>
+          <ul>
+            <li><a href="#自动生成目录">自动生成目录</a></li>
+            <li><a href="#交叉引用">交叉引用</a></li>
+            <li><a href="#pdf链接与书签">pdf链接与书签</a>
+              <ul>
+                <li><a href="#超链接">超链接</a></li>
+                <li><a href="#书签">书签</a></li>
+              </ul>
+            </li>
+            <li><a href="#bibtex引用">bibtex引用</a>
+              <ul>
+                <li><a href="#操作1">操作1</a></li>
+                <li><a href="#操作2">操作2</a></li>
+                <li><a href="#操作3">操作3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#设计文档格式">设计文档格式</a>
+          <ul>
+            <li><a href="#字体">字体</a>
+              <ul>
+                <li><a href="#英文">英文</a></li>
+                <li><a href="#中文">中文</a></li>
+              </ul>
+            </li>
+            <li><a href="#字号">字号</a>
+              <ul>
+                <li><a href="#英文-1">英文</a></li>
+                <li><a href="#中文-1">中文</a></li>
+              </ul>
+            </li>
+            <li><a href="#对齐">对齐</a></li>
+            <li><a href="#空白间距">空白间距</a></li>
+            <li><a href="#版面设置">版面设置</a></li>
+          </ul>
+        </li>
+        <li><a href="#自定义命令和环境">自定义命令和环境</a></li>
+        <li><a href="#标题">标题</a>
+          <ul>
+            <li><a href="#章节标题">章节标题</a></li>
+            <li><a href="#浮动标题">浮动标题</a></li>
+          </ul>
+        </li>
+        <li><a href="#列表环境">列表环境</a></li>
+      </ul>
+    </li>
+    <li><a href="#sjtu模板使用记录持续更新">sjtu模板使用记录（持续更新）</a></li>
+    <li><a href="#一些小tips">一些小tips</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#heading">%</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        enableStickyToc();
+    });
+</script>
+        
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
