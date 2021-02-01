@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/posts/hello-world/</loc>
+    <lastmod>2021-02-01T15:35:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/posts/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/posts/hello-world/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/posts/</loc>
+    <lastmod>2021-02-01T15:35:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/</loc>
+    <lastmod>2021-02-01T15:35:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sjtu-windowsxp.github.io/en/authors/wxp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://sjtu-windowsxp.github.io/authors/wxp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sjtu-windowsxp.github.io/en/authors/wxp/"
+                />
+  </url>
+  
+</urlset>
