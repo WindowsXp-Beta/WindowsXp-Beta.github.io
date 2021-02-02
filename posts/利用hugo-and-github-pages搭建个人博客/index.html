@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang='zh' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>利用Hugo and GitHub Pages搭建个人博客 | WindowsXp</title>
+<link rel="stylesheet" href="https://sjtu-windowsxp.github.io/css/eureka.min.css">
+<script defer src="https://sjtu-windowsxp.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://sjtu-windowsxp.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sjtu-windowsxp.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="本人最近使用Hugo和GitHub Pages搭建了个人博客兼个人主页，这篇笔记记录了搭建过程。 GitHub pages 参考GitHub pages的官方入门文档即可 注意：仓">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Posts",
+      "item":"https://sjtu-windowsxp.github.io/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"利用Hugo and GitHub Pages搭建个人博客",
+      "item":"https://sjtu-windowsxp.github.io/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sjtu-windowsxp.github.io/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"
+    },
+    "headline": "利用Hugo and GitHub Pages搭建个人博客 | WindowsXp","datePublished": "2021-02-02T12:23:38+08:00",
+    "dateModified": "2021-02-02T12:23:38+08:00",
+    "wordCount":  1145 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://sjtu-windowsxp.github.io/images/icon.png"
+        }
+        },
+    "description": "本人最近使用Hugo和GitHub Pages搭建了个人博客兼个人主页，这篇笔记记录了搭建过程。 GitHub pages 参考GitHub pages的官方入门文档即可 注意：仓"
+}
+</script><meta property="og:title" content="利用Hugo and GitHub Pages搭建个人博客 | WindowsXp" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://sjtu-windowsxp.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://sjtu-windowsxp.github.io/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
+
+
+
+
+<meta property="og:description" content="本人最近使用Hugo和GitHub Pages搭建了个人博客兼个人主页，这篇笔记记录了搭建过程。 GitHub pages 参考GitHub pages的官方入门文档即可 注意：仓" />
+
+
+
+
+<meta property="og:locale" content="zh" />
+
+
+
+
+<meta property="og:site_name" content="WindowsXp" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-02-02T12:23:38&#43;08:00" />
+
+
+<meta property="article:modified_time" content="2021-02-02T12:23:38&#43;08:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">WindowsXp</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/authors/wxp/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">关于我</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">文章</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">文档</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script></div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2  lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">利用Hugo and GitHub Pages搭建个人博客</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-02-02</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3分钟阅读时长</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <blockquote>
+<p>本人最近使用Hugo和GitHub Pages搭建了个人博客兼个人主页，这篇笔记记录了搭建过程。</p>
+</blockquote>
+<h2 id="github-pages">GitHub pages</h2>
+<p>参考GitHub pages的<a href="https://pages.github.com">官方入门文档</a>即可</p>
+<p>注意：仓库名必须为<code>&lt;your_user_name&gt;.github.io</code></p>
+<h2 id="hugo">Hugo</h2>
+<p><a href="https://gohugo.io/">Hugo官网</a></p>
+<p>可以直接参考Hugo的<a href="https://gohugo.io/getting-started/quick-start/">quickstart</a>和<a href="https://gohugo.io/getting-started/usage/">basic Usage</a></p>
+<p>注意：quickstart中是使用<code>git submodule</code>安装主题的，而似乎使用<code>Hugo Modules</code>安装更为便捷，更新也更为方便，因此我使用该种方式进行安装与更新。</p>
+<p>我使用的主题是<a href="https://github.com/wangchucheng/hugo-eureka">eureka</a></p>
+<p>这个<a href="https://www.wangchucheng.com/zh/docs/eureka/">文档</a>有关于该主题详尽的安装，配置，发布内容等等的说明。</p>
+<p>以下记录一下我的操作</p>
+<ol>
+<li>
+<p><code>hugo mod init wxp_site</code></p>
+</li>
+<li>
+<p>将exampleSite中的config文件夹复制到项目根目录下，对config文件夹的内容进行配置。</p>
+</li>
+<li>
+<p>在本地服务器中预览项目 <code>hugo server -D</code>其中 -D 选项可以显示在<code>front matter</code>中<code>draft</code>设置为<code>true</code>的内容。该功能主要用来调试。</p>
+</li>
+<li>
+<p><code>hugo</code>用来生成最终的网页。它默认会将内容写进public文件夹中，但如果你想要部署在GitHub pages上，那么你可以在<code>config.yaml</code>中修改<code>baseURL</code>以及<code>publishdir</code>的值，我的值为</p>
+<pre><code class="language-yaml">baseURL: https://sjtu-windowsxp.github.io
+publishdir: /Users/weixinpeng/Desktop/computer_science/sjtu-windowsxp.github.io #即为github.io的本地仓库
+</code></pre>
+</li>
+<li>
+<p>配置主页，按照<a href="https://www.wangchucheng.com/zh/docs/eureka/">文档</a>配置主页。你可以参考examplesite中关于homepage的配置来生成样例。</p>
+<blockquote>
+<p>注意：主页配置中需要加入<code>index.md</code>文档，详见<a href="https://github.com/wangchucheng/hugo-eureka/discussions/42">hugo-eureka discussions/42</a>.</p>
+<p>似乎用<code>hugo module</code>安装没有examplesite了😭😭😭了，可以先用git submodule安装，基本配置完再换回hugo module，<a href="https://www.wangchucheng.com/zh/docs/eureka/">文档</a>中有转换的方法。当然，不参考examplesite直接配也行，你也可以ask me😜😜😜</p>
+</blockquote>
+</li>
+<li>
+<p>在本地修改调试完成后，直接<code>hugo</code>即可上传到本地<code>&lt;user_name&gt;.github.io</code>仓库（你需要按照4中提到的修改<code>config.yaml</code>文件）。再<code>git pull</code>到GitHub上即可完成发布。</p>
+</li>
+</ol>
+<h2 id="绑定域名">绑定域名</h2>
+<ol>
+<li>
+<p>去域名注册商购买域名</p>
+<blockquote>
+<p>我在<a href="https://www.aliyun.com/">阿里云</a>购买了我的域名</p>
+</blockquote>
+</li>
+<li>
+<p>域名解析直接参考阿里云的教程 <a href="https://help.aliyun.com/document_detail/106535.html?spm=a2c4g.11186623.2.3.18f65cfaIrFU4p">添加网站解析</a>。</p>
+<blockquote>
+<p>注意：如果直接按照新手教程解析，是按照A记录进行解析的，此时GitHub会报一个warning，解决方法就是使用CNAME进行解析。</p>
+</blockquote>
+</li>
+<li>
+<p>在<code>&lt;user_name&gt;.github.io</code>仓库中添加文件 CNAME 。文件内容即为你的新域名，比如我的CNAME文件为</p>
+<pre><code class="language-yaml">www.windowsxp.xyz
+</code></pre>
+</li>
+<li>
+<p>在<code>&lt;user_name&gt;.github.io</code>的GitHub仓库的settings中的options选项找到Custom domain添加域名。</p>
+<blockquote>
+<p>这一步网上教程都有，但我添加完 CNAME 文件后这里就自动设置好了。</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<p><strong>至此搭建完毕，可以通过 新域名 访问你的博客啦！！Cheers！！🍻🍻🍻</strong></p>
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">下一页</span>
+        <a href="https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/" class="block">LaTeX笔记</a>
+        
+    </div>
+</div>
+
+        
+    </div>
+    
+    <div class="col-span-2">
+        
+        
+        <div class="sticky top-16 z-10 hidden lg:block px-6 py-4  bg-primary-bg ">
+    <span class="text-lg font-semibold">本页内容</span>
+</div>
+<div class="sticky-toc hidden lg:block px-6 pb-6 ">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#github-pages">GitHub pages</a></li>
+    <li><a href="#hugo">Hugo</a></li>
+    <li><a href="#绑定域名">绑定域名</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        enableStickyToc();
+    });
+</script>
+        
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
