@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on WindowsXp</title>
+    <title>Blog on WindowsXp</title>
     <link>https://sjtu-windowsxp.github.io/posts/</link>
-    <description>Recent content in Posts on WindowsXp</description>
+    <description>Recent content in Blog on WindowsXp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
+    <copyright>Copyright &amp;copy; 2021 &lt;a href=&#34;http://www.windowsxp.xyz/&#34;&gt;WindowsXp&lt;/a&gt; All Rights Reserved
 </copyright>
     <lastBuildDate>Tue, 02 Feb 2021 12:23:38 +0800</lastBuildDate><atom:link href="https://sjtu-windowsxp.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -15,7 +15,7 @@
       <pubDate>Tue, 02 Feb 2021 12:23:38 +0800</pubDate>
       
       <guid>https://sjtu-windowsxp.github.io/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>本人最近使用Hugo和GitHub Pages搭建了个人博客兼个人主页，这篇笔记记录了搭建过程。 GitHub pages 参考GitHub pages的官方入门文档即可 注意：仓</description>
+      <description></description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Feb 2021 23:16:01 +0800</pubDate>
       
       <guid>https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/</guid>
-      <description>$\LaTeX$学习笔记 获取帮助文档 在terminal中输入 texdoc 宏包的名字 注释 % 段注释：\iffalse……\fi 导言区 %导言区 \documentclass[]{article} %report letter book…… %ctexart ctexbook ctexreport</description>
+      <description></description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@
       <pubDate>Mon, 01 Feb 2021 15:35:14 +0800</pubDate>
       
       <guid>https://sjtu-windowsxp.github.io/posts/hello-world/</guid>
-      <description>Hello World </description>
+      <description></description>
     </item>
     
   </channel>
