@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on WindowsXp</title>
-    <link>https://sjtu-windowsxp.github.io/authors/</link>
+    <link>https://sjtu-windowsxp.github.io/zh/authors/</link>
     <description>Recent content in Authors on WindowsXp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>Copyright &amp;copy; 2021 &lt;a href=&#34;http://www.windowsxp.xyz/&#34;&gt;WindowsXp&lt;/a&gt; All Rights Reserved
-</copyright><atom:link href="https://sjtu-windowsxp.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="https://sjtu-windowsxp.github.io/zh/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Xinpeng Wei</title>
-      <link>https://sjtu-windowsxp.github.io/authors/wxp/</link>
+      <title>魏新鹏</title>
+      <link>https://sjtu-windowsxp.github.io/zh/authors/wxp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sjtu-windowsxp.github.io/authors/wxp/</guid>
-      <description>self-introduction Currently studying at Shanghai Jiao Tong University SEIEE software engineering</description>
+      <guid>https://sjtu-windowsxp.github.io/zh/authors/wxp/</guid>
+      <description></description>
     </item>
     
   </channel>

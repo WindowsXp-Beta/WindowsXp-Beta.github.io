@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on WindowsXp</title>
+    <title>Posts on WindowsXp</title>
     <link>https://sjtu-windowsxp.github.io/posts/</link>
-    <description>Recent content in Blog on WindowsXp</description>
+    <description>Recent content in Posts on WindowsXp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
+    <language>en</language>
     <copyright>Copyright &amp;copy; 2021 &lt;a href=&#34;http://www.windowsxp.xyz/&#34;&gt;WindowsXp&lt;/a&gt; All Rights Reserved
 </copyright>
-    <lastBuildDate>Tue, 02 Feb 2021 12:23:38 +0800</lastBuildDate><atom:link href="https://sjtu-windowsxp.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>利用Hugo and GitHub Pages搭建个人博客</title>
-      <link>https://sjtu-windowsxp.github.io/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Tue, 02 Feb 2021 12:23:38 +0800</pubDate>
-      
-      <guid>https://sjtu-windowsxp.github.io/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LaTeX笔记</title>
-      <link>https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Mon, 01 Feb 2021 23:16:01 +0800</pubDate>
-      
-      <guid>https://sjtu-windowsxp.github.io/posts/latex%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 01 Feb 2021 15:35:14 +0800</lastBuildDate><atom:link href="https://sjtu-windowsxp.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>https://sjtu-windowsxp.github.io/posts/hello-world/</link>
       <pubDate>Mon, 01 Feb 2021 15:35:14 +0800</pubDate>
       
       <guid>https://sjtu-windowsxp.github.io/posts/hello-world/</guid>
-      <description></description>
+      <description>Hello World </description>
     </item>
     
   </channel>

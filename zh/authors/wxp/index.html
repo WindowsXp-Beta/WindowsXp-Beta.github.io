@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang='en' ><meta charset="utf-8">
+<html lang='zh' ><meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
 
-<title>WindowsXp</title>
+<title>魏新鹏 | WindowsXp</title>
 <link rel="stylesheet" href="https://sjtu-windowsxp.github.io/css/eureka.min.css">
 <script defer src="https://sjtu-windowsxp.github.io/js/eureka.min.js"></script>
 
@@ -61,25 +61,25 @@
   "itemListElement": [{
       "@type": "ListItem",
       "position": 1 ,
-      "name":"WindowsXp",
-      "item":"https://sjtu-windowsxp.github.io/"},{
+      "name":"Authors",
+      "item":"https://sjtu-windowsxp.github.io/zh/authors/"},{
       "@type": "ListItem",
       "position": 2 ,
-      "name":"404 Page not found",
-      "item":"https://sjtu-windowsxp.github.io/404.html"}]
+      "name":"魏新鹏",
+      "item":"https://sjtu-windowsxp.github.io/zh/authors/wxp/"}]
 }
 </script>
 
 
 
-<meta property="og:title" content="WindowsXp" />
+<meta property="og:title" content="魏新鹏 | WindowsXp" />
 <meta property="og:type" content="website" />
 
 
 <meta property="og:image" content="https://sjtu-windowsxp.github.io/images/icon.png">
 
 
-<meta property="og:url" content="https://sjtu-windowsxp.github.io/404.html" />
+<meta property="og:url" content="https://sjtu-windowsxp.github.io/zh/authors/wxp/" />
 
 
 
@@ -91,7 +91,11 @@
 
 
 
-<meta property="og:locale" content="en" />
+<meta property="og:locale" content="zh" />
+
+
+
+<meta property="og:locale:alternate" content="en" />
 
 
 
@@ -105,10 +109,10 @@
 
 
 
-<meta property="article:section" content="" />
+<meta property="article:section" content="authors" />
 
 
-
+<link rel="alternate" type="application/rss+xml" href="https://sjtu-windowsxp.github.io/zh/authors/wxp/index.xml" title="WindowsXp" />
 
 <body class="flex flex-col min-h-screen">
   <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
@@ -119,7 +123,7 @@
     }
 </script>
 <nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
-    <a href="/" class="mr-6 text-primary-text text-xl font-bold">WindowsXp</a>
+    <a href="/zh/" class="mr-6 text-primary-text text-xl font-bold">WindowsXp</a>
     <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
         <i class="fas fa-bars"></i>
     </button>
@@ -127,9 +131,9 @@
     <div id="target"
         class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
-            <a href="/authors/wxp/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">About</a>
-            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Posts</a>
-            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Docs</a>
+            <a href="/zh/authors/wxp/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">关于我</a>
+            <a href="/zh/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">文章</a>
+            <a href="/zh/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">文档</a>
         </div>
 
         <div class="flex">
@@ -144,6 +148,19 @@
                     <span class="px-4 py-1 hover:text-eureka">Light</span>
                     <span class="px-4 py-1 hover:text-eureka">Dark</span>
                     <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+            <div class="relative pt-4 pl-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="languageMode">
+                    <i class="fas fa-globe"></i>
+                    <span class="pl-1">简体中文</span>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='languageOptions'>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://sjtu-windowsxp.github.io/zh/authors/wxp/">简体中文</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://sjtu-windowsxp.github.io/authors/wxp/">English</a>
                 </div>
             </div>
         </div>
@@ -172,19 +189,125 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        switchLanguage()
     });
 </script></div>
   </header>
   <main class="flex-grow pt-16">
-    <div class="pl-scrollbar">
-      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
-<div class="bg-secondary-bg rounded overflow-hidden mt-12 px-4 py-32 text-center">
-    <span class="text-3xl">404 - Page not found</span>
+<div class="pl-scrollbar bg-secondary-bg">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+      <div class="flex flex-col md:flex-row items-center justify-center mb-12">
+  
+  
+    <div class="flex-none w-48 mx-auto md:ml-0 md:mr-8 md:pr-8 md:border-r">
+      <img src="https://sjtu-windowsxp.github.io/img/wxp.jpg" class="rounded-full" alt="Avatar">
+    </div>
+  
+  <div class="flex-grow mt-4 md:mt-0">
+    <div class="text-3xl py-4">魏新鹏</div>
+    <div class="w-3/12 xl:w-2/12 border-b"></div>
+
+    <div class="flex items-center pt-4">
+      
+        <i class="fas fa-user"></i>
+      
+      <div class="flex flex-wrap">
+        
+          <span class="pl-4">本科二年级</span>
+        
+
+        
+          <a href="https://www.sjtu.edu.cn/" class="pl-4">上海交通大学</a>
+        
+      </div>
+
+    </div>
+
+    
+      <div class="py-8 text-lg leading-normal">
+        电影爱好者、NBA云球迷、无党派白学家、半吊子码农
+      </div>
+    
+  </div>
+  <div class="flex md:flex-col justify-center items-end ml-8">
+    
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://github.com/sjtu-windowsxp"><i class="fab fa-github"></i></a>
+      </div>
+    
+  </div>
+</div>
+<div class="content">
+  <h2 id="自我介绍">自我介绍</h2>
+<p><a href="https://www.sjtu.edu.cn">上海交通大学</a> <a href="http://www.seiee.sjtu.edu.cn">电子信息与电气工程学院</a> <a href="http://www.se.sjtu.edu.cn">软件工程</a> 本科二年级在读</p>
+<p>电影爱好者 —— 几乎所有电影分类里都有我的最爱</p>
+<p>更多了解<a href="#movies">我与电影</a></p>
+<p>NBA云球迷 —— 没时间看直播只能刷刷虎扑而且没有忠实拥趸所以只能算个云球迷</p>
+<p>无党派白学家 —— 白色相簿什么的，已经无所谓了，因为已经不再有歌，值得去唱了，传达不到的恋情，已经不需要了，因为已经不再有人，值得去爱了</p>
+<p>半吊子码农 —— coding for fun</p>
+<h2 id="movies">我与电影</h2>
+<p>我爱爆米花，因为看这类片子完全不需要动脑子，跟着主角一起拯救世界吧</p>
+<p>我也爱大IP，因为这些片子普遍爆米花含量超高，而且很适合在电影院里看，而我对影院观影情有独钟</p>
+<blockquote>
+<p>追过的IP</p>
+<ul>
+<li>漫威</li>
+<li>DC</li>
+<li>星球大战</li>
+<li>哈利 · 波特（包括 神奇动物在哪里 ）</li>
+<li>碟中谍</li>
+<li>007</li>
+<li>谍影重重</li>
+<li>加勒比海盗</li>
+<li>变形金刚</li>
+<li>青少年科幻（包括 饥饿游戏、移动迷宫、分歧者 ）</li>
+<li>待续 &hellip;</li>
+</ul>
+<hr>
+<p>想追的IP</p>
+<ul>
+<li>权利的游戏</li>
+<li>中土发生的故事（包括 指环王、霍比特人）</li>
+<li>待续 &hellip;</li>
+</ul>
+</blockquote>
+<p>爆米花自然不是电影的全部，我虽不如马丁·斯科塞斯那么极端</p>
+<blockquote>
+<p>漫威不算电影。</p>
+</blockquote>
+<p>但也希望通过电影体验不同的人生，领略不同的思想，亦如我在豆瓣上看到的一则帖子</p>
+<blockquote>
+<p>而电影人则可以忽略一切琐碎，用两小时的胶片，串联起一个人一辈子最起承转合的时刻，用镜头隔离出一个让你沉浸其中的虚拟世界，这个虚拟世界中的人物，可以不凡地活着，有属于自己的故事和传奇，闯着你想闯却不敢闯的祸，爱着你想爱却不敢爱的人，他们展现着最浓烈的爱恨，或善或恶，亦正亦邪。</p>
+</blockquote>
+<p>每年，我从3月的柏林，看到5月的戛纳，再到8月的威尼斯，最近也开始关注TIFF。未来希望能打卡三大电影节</p>
+<p>而到了岁末年初，伴随着各个影评人，媒体奖项揭晓，奥斯卡徐徐拉开了大幕。虽然奥斯卡的收视率逐渐走低，但不可否认的是，全球的电影从业者与影迷们，都会在二月翘首以盼，看小金人花落谁家。我自不例外，我为奉俊昊欢呼，惊叹于墨西哥三杰接力奉送佳作，也为达米恩·沙泽勒扼腕 ······ 现在除了每年的最佳影片，我也会看感兴趣的提名作品以及其他奖项的获奖与提名作品。</p>
+<blockquote>
+<p>flag:什么时候更一下我喜欢的导演</p>
+</blockquote>
+
+</div>
+    </div>
+  </div>
+</div>
+<div class="pl-scrollbar bg-primary-bg">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+      <div class="overflow-hidden divide-y">
+  
 </div>
 
-      </div>
+
     </div>
-    
+  </div>
+</div>
+
   </main>
   <footer class="pl-scrollbar">
     <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">

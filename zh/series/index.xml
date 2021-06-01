@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on WindowsXp</title>
-    <link>https://sjtu-windowsxp.github.io/tags/</link>
-    <description>Recent content in Tags on WindowsXp</description>
+    <title>Series on WindowsXp</title>
+    <link>https://sjtu-windowsxp.github.io/zh/series/</link>
+    <description>Recent content in Series on WindowsXp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>Copyright &amp;copy; 2021 &lt;a href=&#34;http://www.windowsxp.xyz/&#34;&gt;WindowsXp&lt;/a&gt; All Rights Reserved
-</copyright><atom:link href="https://sjtu-windowsxp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="https://sjtu-windowsxp.github.io/zh/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
