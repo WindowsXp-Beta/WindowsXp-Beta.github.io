@@ -1,0 +1,10 @@
+main:
+  - name: 关于
+    url: /authors/wxp/
+    weight: 1
+  - name: 文章
+    url: /posts/
+    weight: 2
+  - name: 文档
+    url: /docs/
+    weight: 3
