@@ -3,127 +3,132 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/posts/</loc>
-    <lastmod>2021-02-02T12:23:38+08:00</lastmod>
+    <loc>./zh/posts/22%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/</loc>
+    <lastmod>2022-03-23T18:30:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>./zh/posts/</loc>
+    <lastmod>2022-03-23T18:30:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/posts/"
+                href="./posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/posts/"
+                href="./zh/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/</loc>
-    <lastmod>2021-02-02T12:23:38+08:00</lastmod>
+    <loc>./zh/</loc>
+    <lastmod>2022-03-23T18:30:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/"
+                href="./"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/"
+                href="./zh/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>./zh/posts/%E5%88%A9%E7%94%A8hugo-and-github-pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-02-02T12:23:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/posts/latex%E7%AC%94%E8%AE%B0/</loc>
+    <loc>./zh/posts/latex%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-02-01T23:16:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/posts/hello-world/</loc>
+    <loc>./zh/posts/hello-world/</loc>
     <lastmod>2021-02-01T15:35:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/posts/hello-world/"
+                href="./posts/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/posts/hello-world/"
+                href="./zh/posts/hello-world/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/authors/</loc>
+    <loc>./zh/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/authors/"
+                href="./authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/authors/"
+                href="./zh/authors/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/categories/</loc>
+    <loc>./zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/categories/"
+                href="./categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/categories/"
+                href="./zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/series/</loc>
+    <loc>./zh/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/series/"
+                href="./series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/series/"
+                href="./zh/series/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/tags/</loc>
+    <loc>./zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/tags/"
+                href="./tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/tags/"
+                href="./zh/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://WindowsXp-Beta.github.io/zh/authors/wxp/</loc>
+    <loc>./zh/authors/wxp/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://WindowsXp-Beta.github.io/authors/wxp/"
+                href="./authors/wxp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://WindowsXp-Beta.github.io/zh/authors/wxp/"
+                href="./zh/authors/wxp/"
                 />
   </url>
   
