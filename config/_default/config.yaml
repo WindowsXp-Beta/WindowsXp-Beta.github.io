@@ -1,5 +1,5 @@
-baseURL: ""
-relativeURLs: true
+baseURL: "https://www.windowsxp.xyz/"
+# relativeURLs: true
 title: WindowsXp
 # publishdir: /Users/weixinpeng/Desktop/computer_science/WindowsXp-Beta.github.io
 # Comment when installing using Hugo Modules
