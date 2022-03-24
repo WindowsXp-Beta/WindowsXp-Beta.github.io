@@ -1,17 +1,13 @@
 ---
 # Name
 title: 魏新鹏
-role: 本科二年级
+draft: false
+role: 本科三年级
+avatar: ../img/wxp.jpg
 bio: 电影爱好者、NBA云球迷、无党派白学家、半吊子码农
-avatar: img/wxp.jpg
-
 organization:
   name: 上海交通大学
-  url: https://www.sjtu.edu.cn/
-
-# Check the available icons on https://fontawesome.com/.
-# You can get similar results like this <i class="fab fa-github"></i> after searching.
-# Then icon is github and iconPack is fab for this case.
+  url: https://www.sjtu.edu.cn
 social:
   - icon: github
     iconPack: fab
@@ -26,8 +22,6 @@ social:
 <a href="https://www.sjtu.edu.cn">上海交通大学</a> <a href="http://www.seiee.sjtu.edu.cn">电子信息与电气工程学院</a> <a href="http://www.se.sjtu.edu.cn">软件工程</a> 本科三年级在读
 
 电影爱好者 —— 几乎所有电影分类里都有我的最爱
-
-更多了解<a href="#movies">我与电影</a>
 
 NBA云球迷 —— 没时间看直播只能刷刷虎扑而且没有忠实拥趸所以只能算个云球迷
 

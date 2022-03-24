@@ -2,7 +2,7 @@
 title: WindowsXp
 draft: false
 role: 本科三年级
-avatar: img/wxp.jpg
+avatar: ../img/wxp.jpg
 bio: 电影爱好者、NBA云球迷、无党派白学家、半吊子码农
 organization:
   name: 上海交通大学
