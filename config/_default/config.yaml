@@ -1,4 +1,4 @@
-baseURL: "https://windowsxp.xyz/"
+baseURL: "https://windowsxp-beta.github.io/"
 title: WindowsXp
 # publishdir: /Users/weixinpeng/Desktop/computer_science/WindowsXp-Beta.github.io
 # Comment when installing using Hugo Modules
@@ -8,7 +8,7 @@ theme: github.com/wangchucheng/hugo-eureka
 
 paginate: 3
 copyright: >
-  Copyright &copy; 2022 <a href="https://www.windowsxp.xyz/">WindowsXp</a> All Rights Reserved
+  Copyright &copy; 2021-2022 <a href="https://www.windowsxp.xyz/">WindowsXp</a> All Rights Reserved
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 0
