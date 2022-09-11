@@ -2,4 +2,4 @@ module wxp_site
 
 go 1.15
 
-require github.com/wangchucheng/hugo-eureka v0.8.3 // indirect
+require wangchucheng.com/hugo-eureka v0.9.3 // indirect
