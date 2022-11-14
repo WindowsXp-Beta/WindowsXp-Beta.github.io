@@ -10,7 +10,7 @@ toc: true
 
 ## <del>缘起</del>
 ## <del>初识</del>
-<del>be小黄文</del>写不下去了，还是上干货吧。。。
+<del>小黄文</del>写不下去了，还是上干货吧。。。
 
 # 干货
 
@@ -66,7 +66,7 @@ xxxxx, because it can save me a lot of time. You know, I am a senior student and
 
 然后所有题的答题逻辑都变成了，我选择这个，因为它可以节约我的时间。随后开始背段子。
 
-> 不要执着于逻辑和consensus，首先托福不care逻辑，其次西方不就是尊重个人想法么，大胆表达出来（扯）就行了。
+> 不要执着于逻辑和consensus，<del>首先托福不care逻辑</del>（听说还是care逻辑的，毕竟有人在听，不能说的太扯），其次西方不就是尊重个人想法么，大胆表达出来（扯）就行了。
 
 举例：
 
@@ -120,7 +120,7 @@ xxxxx, because it can save me a lot of time. You know, I am a senior student and
 
 为了尽可能让自己说的流畅一点，除了上面提到的把一个点记完整，在平时多说英语（输出）也很重要，比如用英语想问题，用英语记笔记。这样你就会发现你很多不会的表达，不会的逻辑连接，然后去deepl+Linggle/Ludwig一波就知道该怎么说了。
 
-关于综合的模板还是见我的[笔记repo](https://github.com/WindowsXp-Beta/WindowsXp-NOTEs/tree/master/English/TOEFL/note/28%E9%BB%8E%E8%80%81%E5%B8%88_note)。
+关于综合的模板还是见我的[笔记repo](https://github.com/WindowsXp-Beta/WindowsXp-NOTEs/tree/master/English/TOEFL/note/fiona)。
 
 **Anyway，毕竟连小good都没有，所以还是2 cents point。**
 
@@ -148,9 +148,11 @@ xxxxx, because it can save me a lot of time. You know, I am a senior student and
 
 ### Verbal
 
+要想上155，Verbal的第一个list一定要做好，因为如果你对14个及以上，第二个list就进hard了，就直接从150分开始给你算了，第二个list对个5，6个就能155了。不过这个严格的计算可以去真经GRE公众号，你把两个list的成绩输进去就行了。我最后一次，两个list分别是14+10。
+
 #### 填空
 
-完整的刷完了真经GRE博哥的课，觉得还是得背单词。
+刷完了真经GRE博哥的课，觉得还是得背单词。
 
 背单词的话我背的是真经GRE那个1500机经词，在app上过了两遍然后上Excel背的。（别看单词少，这1500个词我背了两个月，考前刷excel还有好多不会的🥲）
 
@@ -164,7 +166,7 @@ xxxxx, because it can save me a lot of time. You know, I am a senior student and
 
 刷题的话我前期刷真经GRE的机经，后面发现[考满分](https://gre.kmf.com/practise/tc)跟真实考试比较像就去刷考满分了。最后刷的题的量大概如下
 
-真经GRE机经：
+真经GRE机经：150~160 全写了，前面大概也挑了10个list写了写。
 
 考满分（瞧这悲惨的正确率）：
 
@@ -172,15 +174,15 @@ xxxxx, because it can save me a lot of time. You know, I am a senior student and
 
 #### 阅读
 
-完整的刷完了真经GRE小克老师的课，觉得还是得多看长难句。
+刷完了真经GRE小克老师的课，觉得还是得多看长难句。
 
 由于托福阅读上了XDF的课后觉得效果特别好，听到小克老师这些令人熟悉的奇技淫巧我一开始也非常兴奋，觉得速通GRE就在眼前了，但练习的时候发现正确率非常感人，最后决定还是老老实实读文章吧，而且GRE和TOEFL一个很大的不同就是GRE大部分是短文章，有的文章一篇也就三句话，读一部分和读全文差别没有TOEFL那么大。
 
-既然想读文章，那么就必须要解决长难句这个拦路虎，其实不止是阅读文中中，题目里，填空里都有长难句。所以我觉得系统学习一下长难句对GRE的帮助还是很大的。长难句我看了《新G神长难句》这本书，具体的笔记见[笔记repo](https://github.com/WindowsXp-Beta/WindowsXp-NOTEs/tree/master/English/GRE)，书的话网上找找吧（zlib都被橄榄了，我就不传播盗版了），另外一本《杨鹏长难句》听闻也非常不错。重点是它告诉应该怎样去读一个长难句，包括找主谓宾，遇到从句引导词开始新的一轮找主谓宾等等。学会这套方法论之后任何长难句都会被拆解为一组组主谓宾。
+既然想读文章，那么就必须要解决长难句这个拦路虎，其实不止是阅读文中中，题目里，填空里都有长难句。所以我觉得系统学习一下长难句对GRE的帮助还是很大的。长难句我看了《新G神长难句》这本书，具体的笔记见[笔记repo](https://github.com/WindowsXp-Beta/WindowsXp-NOTEs/tree/master/English/GRE)，书的话网上找找吧（zlib都被橄榄了，我就不传播盗版了），另外一本《杨鹏长难句》听闻也非常不错。重点是它告诉应该怎样去读一个长难句，包括找主谓宾，遇到从句引导词开始新的一轮找主谓宾，分辨并列结构等等。学会这套方法论之后任何长难句都会被拆解为一组组主谓宾，从而顺利理解。
 
 ### Quantitative
 
-没啥好说的，也没咋练，<del>不满不是中国人</del>
+没啥好说的，也没咋练，不满不是中国人<del>第一次好像也没满</del>
 
 注意几点：
 
