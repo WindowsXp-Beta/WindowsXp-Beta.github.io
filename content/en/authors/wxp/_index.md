@@ -19,6 +19,9 @@ social:
   - icon: zhihu
     iconPack: fab
     url: https://www.zhihu.com/people/xpho
+  - icon: linkedin-in
+    iconPack: fab
+    url: https://www.linkedin.com/in/xinpeng-wei-b09846200/
 ---
 
 ## self-introduction

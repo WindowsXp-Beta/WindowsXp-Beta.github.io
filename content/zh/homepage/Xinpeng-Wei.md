@@ -1,11 +1,11 @@
 ---
 title: WindowsXp
 draft: false
-role: 本科三年级
+role: 23fall 失学ing
 avatar: ../img/wxp.jpg
-bio: 电影爱好者、NBA云球迷、无党派白学家、半吊子码农
+bio: 电影爱好者、NBA云球迷、无党派白学家、computer sys拥趸
 organization:
-  name: 上海交通大学
+  name: 东川路男子职业技术学校
   url: https://www.sjtu.edu.cn
 social:
   - icon: github
@@ -14,6 +14,9 @@ social:
   - icon: zhihu
     iconPack: fab
     url: https://www.zhihu.com/people/xpho
+  - icon: linkedin-in
+    iconPack: fab
+    url: https://www.linkedin.com/in/xinpeng-wei-b09846200/
 
 weight: 1
 widget:
