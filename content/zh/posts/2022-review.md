@@ -22,7 +22,7 @@ toc: true
 
 摸了很多鱼
 1. 给设备升了个级🐶。
-<img src="../images/2022/desk.jpeg" style="zoom:50%;display: block;margin-left: auto;margin-right: auto;">
+    <img src="https://s1.ax1x.com/2023/01/18/pS3B5nS.jpg" style="zoom:50%;display: block;margin-left: auto;margin-right: auto;">
 2. 超市开始抢号了之后和室友写了个[脚本](https://github.com/Vladimirovich2019/COVID-2022)，部署在交大云上（ping预约的服务器只要1ms），多线程并发请求😎😎😎
     <details>
         <summary>结果</summary>
@@ -35,7 +35,7 @@ toc: true
 1. OS课终于见识到了传说中的[chcore](https://gitee.com/ipads-lab/chcore-lab-v2)，非常好的lab，强烈安利。
 2. 云计算课在队长cyx和队友gzd的强力carry下撸了一个[k8s](https://github.com/Kuberboat)。
 3. 在S社学Rust & 写issue。可惜由于封校一直remote，错过了所有的happy hour😭😭😭。但还是收到了端午礼包🥰🥰🥰
-   <img src="../images/2022/s_gift.jpeg" style="zoom:15%;display:block;margin-left:auto;margin-right:auto;">
+   <img src="https://s1.ax1x.com/2023/01/18/pS3Bbhn.jpg" style="zoom:15%;display:block;margin-left:auto;margin-right:auto;">
 
 然后就上完了最后一节专业课，考完了最后一场试。
 
@@ -67,23 +67,23 @@ MS的暑期实习是开盲盒，HR对着（我觉得也不一定对着）你的�
 
 ### MISC
 1. 7月份做了件非常有意思的事情，当了回bestman😎😎
-   <img src="../images/2022/bestman.jpeg" style="zoom:30%;display:block;margin-left:auto;margin-right:auto;">
+   <img src="https://s1.ax1x.com/2023/01/18/pS3BHts.jpg" style="zoom:30%;display:block;margin-left:auto;margin-right:auto;">
 2. 报名了[GAU](https://mp.weixin.qq.com/s/UFYKMDS784P8B6hOYAznpg)，结果第一志愿和第二志愿都把我desk reject😭，还好孟仔大大捞了我。
 
 ## 申请季
 
 ### GRE
 第一次GRE挂了之后约了江苏南通的线下考，从微软离职后过去刚好。事情自然不会这么一帆风顺，先是南通考点要求7天行程码无省外，于是只能跟mentor & manager说提前离职，去南通住一周。再是学校开学第一天就混检阳然后封校了，经历了上半年lockdown已经PTSD的我肯定不敢回学校，于是更提前了离职，连夜跑路。
-   <img src="../images/2022/leave_MS.png" style="zoom:50%;display:block;margin-left:auto;margin-right:auto;">
+   <img src="https://s1.ax1x.com/2023/01/18/pS3B7kj.png" style="zoom:50%;display:block;margin-left:auto;margin-right:auto;">
 
 仓皇的后果是在高铁上丢了身份证，问了问考点说临时身份证可以用，于是第二天台风天我妈开车带我回了闵行补办了身份证🤡🤡🤡。晚上做高铁去了南通，祈祷七天之后我的行程码上只有江苏的轨迹。
 
 顺便远程签了放弃推免。
-   <img src="../images/2022/giveup_recommend.jpg" style="zoom:30%;display:block;margin-left:auto;margin-right:auto;">
+   <img src="https://s1.ax1x.com/2023/01/18/pS3BhX8.jpg" style="zoom:30%;display:block;margin-left:auto;margin-right:auto;">
 > 现在想来要读PhD的话留在ipads绝对是最优解，稳定的产出，熟悉的环境，非常好的老师，其实大概5月份的时候斌哥还问我要不要去THU读博，看了看那个老师的主页发现发顶会发得也很猛。纠结了一番之后还是不想读博，详见[~~Why not a Ph.D.~~](../why-not-phd)（还没写完）。而如果是硕士的话国内读硕士的时间成本太高了，在微软和一些秋招的同学聊，也愈发认识到学历只是一个门槛，如果你有更能证明你实力的东西，比如open-source，顶会论文，solid的项目等等，它们往往比一纸文凭更有用，而除了顶会论文，我觉得其他两者不需要读master，甚至读master还会占用你的时间。
 
 在南通的全季待了七天，背单词之余远程指导ws学弟把NFC给跑通了，顺带水了5k的结题报告，终于和PRP说再见了。9.23上考场，V158+Q170+AW4.0顺利杀G（能申Yale了，开心开心）。考完发现微软的小伙伴们组织恰饭，于是从南通回了上海。
-   <img src="../images/2022/MS_group_photo.jpeg" style="zoom:50%;display:block;margin-left:auto;margin-right:auto;">
+   <img src="https://s1.ax1x.com/2023/01/18/pS3BI0g.jpg" style="zoom:50%;display:block;margin-left:auto;margin-right:auto;">
 
 ### TOEFL
 学校还封着，于是直接回家，然后开始准备TOEFL。期间乏善可陈，详见[GT分手日记](../gt分手日记)。
@@ -120,7 +120,7 @@ T: 110(S23) G: 328+4.0。
 文书
 
 SoP重写了好多遍 & GAU的组内互改被怼了好几轮，又找了好多人帮我看。最后总算梳理出一条还算make sense的逻辑。
-   <img src="../images/2022/SoP_revision.png" style="zoom:100%;display:block;margin-left:auto;margin-right:auto;">
+   <img src="https://s1.ax1x.com/2023/01/18/pS3Bo7Q.png" style="zoom:100%;display:block;margin-left:auto;margin-right:auto;">
 thanks to all of you sincerely
 
 选校
