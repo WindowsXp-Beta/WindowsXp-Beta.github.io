@@ -1,7 +1,8 @@
 ---
 title: "再见2022 & 你好，22"
 date: 2023-01-17T20:49:57+08:00
-draft: true
+draft: False
+toc: true
 ---
 
 > 本来标题是再见2022，然后跨年的时候发，结果那几天录video essay & 对着~~csranking查faculty主页~~chatGPT写why school写到自闭然后啥事也不想干，过了跨年之后更没动力了，而且网申也没交完 & 调[penglai](https://github.com/Penglai-Enclave/Penglai-Enclave-sPMP) & 毕设开题……
