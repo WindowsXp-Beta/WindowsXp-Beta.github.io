@@ -2,9 +2,12 @@ main:
   - name: 关于
     url: /authors/wxp/
     weight: 1
+  - name: CV
+    url: https://www.windowsxp.dev
+    weight: 2
   - name: 文章
     url: /posts/
-    weight: 2
+    weight: 3
   - name: 文档
     url: /docs/
-    weight: 3
+    weight: 4

@@ -2,7 +2,7 @@
 title: WindowsXp
 draft: false
 role: Junior
-avatar: img/wxp.jpg
+avatar: img/wxp.jpeg
 bio: Fan of movies、Cloud fan of NBA、Galgamer、Love coding
 organization:
   name: Shanghai Jiao Tong University

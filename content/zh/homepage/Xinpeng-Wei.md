@@ -2,7 +2,7 @@
 title: WindowsXp
 draft: false
 role: 23fall 失学ing
-avatar: ../img/wxp.jpg
+avatar: ../img/wxp.jpeg
 bio: 电影爱好者、NBA云球迷、无党派白学家、computer sys拥趸
 organization:
   name: 东川路男子职业技术学校

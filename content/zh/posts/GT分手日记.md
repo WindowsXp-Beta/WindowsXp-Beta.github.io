@@ -144,6 +144,8 @@ xxxxx, because it can save me a lot of time. You know, I am a senior student and
 
 所以我的做法是考前把几个高频的主题各写了几段，扔到grammarly看看自己都犯啥错（比如冠词乱加，可数不可数，模板记错了，etc），考前复习一下这些错。然后考试的时候宁可少写一点也要腾出时间来检查，最后那次我留了3min来检查综合，5min来检查独立。
 
+很多同学可能关心字数，因为不知道谁说的：字数越多分数越高。这里给个我最后这次的dp，综合320，独立440。其实考前我也比较担心，之前[练打字](https://www.keybr.com/)
+
 ## GRE
 
 ### Verbal
