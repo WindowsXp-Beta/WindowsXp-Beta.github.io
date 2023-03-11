@@ -134,7 +134,7 @@ thanks to all of you sincerely
 
 （看今年的情况不一定）保（得住的）底：USC CS28; UW-Madison PMP; UCSD EC79;
 
-### epilogue
+## epilogue
 整个2022的核心应该就是申请了吧。扪心自问，我觉得我best effort了，毕竟最后那一页纸CV上的大部分内容，都发生在2022。
 
 我觉得这是我第一次选择自己的人生，选择到底想成为什么样的人，想过什么样的生活。所以我觉得申请本身也是有意义的，一如地里的这段话
