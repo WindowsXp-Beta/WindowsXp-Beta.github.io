@@ -26,7 +26,7 @@ toc: true
    3. [机经1500词词表](https://github.com/WindowsXp-Beta/WindowsXp-NOTEs/blob/master/English/GRE/%E6%9C%BA%E7%BB%8F%E8%AF%8D%E6%B1%87.xlsx)
    4. 机经:
       1. [考满分](https://gre.kmf.com/practise/tc)
-      2. 真经GRE公众号: 新的机经，算分，网课等。
+      2. 公众号`张巍老师GRE`: 新的机经，算分，网课等。
 4. 水源论坛上的经验贴
    1. [托福口语26分养成记](https://shuiyuan.sjtu.edu.cn/t/topic/3321)
    2. [30天一战GRE V158Q170](https://shuiyuan.sjtu.edu.cn/t/topic/20823)

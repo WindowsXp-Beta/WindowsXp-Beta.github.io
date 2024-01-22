@@ -1,6 +1,6 @@
 ---
 # Name
-title: Xinpeng Wei
+title: Xinpeng Wei (Outdated)
 role: Junior
 bio: Fan of movies、Cloud fan of NBA、Galgamer、Love coding
 avatar: img/wxp.jpeg

@@ -1,5 +1,5 @@
 ---
-title: WindowsXp
+title: WindowsXp (Outdated)
 draft: false
 role: Junior
 avatar: img/wxp.jpeg

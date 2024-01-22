@@ -1,12 +1,12 @@
 ---
 title: WindowsXp
 draft: false
-role: 23fall 失学ing
+role: 计算机科学 硕士一年级
 avatar: ../img/wxp.jpeg
-bio: 电影爱好者、NBA云球迷、无党派白学家、computer sys拥趸
+bio: 电影爱好者、NBA云球迷、无党派白学家、MLsys打工人
 organization:
-  name: 东川路男子职业技术学校
-  url: https://www.sjtu.edu.cn
+  name: 做鸡鸭男子职业技工学院
+  url: https://www.gatech.edu/
 social:
   - icon: github
     iconPack: fab
@@ -16,7 +16,7 @@ social:
     url: https://www.zhihu.com/people/xpho
   - icon: linkedin-in
     iconPack: fab
-    url: https://www.linkedin.com/in/xinpeng-wei-b09846200/
+    url: https://www.linkedin.com/in/william-xp-wei
 
 weight: 1
 widget:
