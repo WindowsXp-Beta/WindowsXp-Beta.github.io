@@ -3,7 +3,7 @@ main:
     url: /authors/wxp/
     weight: 1
   - name: CV
-    url: https://www.windowsxp.dev
+    url: https://www.windowsxp.tech
     weight: 2
   - name: 文章
     url: /posts/
