@@ -3,7 +3,7 @@ main:
     url: /authors/wxp/
     weight: 1
   - name: CV
-    url: https://www.windowsxp.tech
+    url: https://windowsxp-beta.netlify.app/
     weight: 2
   - name: 文章
     url: /posts/

@@ -1,7 +1,7 @@
 ---
 title: WindowsXp
 draft: false
-role: 计算机科学 硕士一年级
+role: 计算机科学 硕士二年级
 avatar: ../img/wxp.jpeg
 bio: 电影爱好者、NBA云球迷、无党派白学家、MLsys打工人
 organization:

@@ -2,7 +2,7 @@
 # Name
 title: 魏新鹏
 draft: false
-role: 计算机科学 硕士一年级
+role: 计算机科学 硕士二年级
 avatar: ../img/wxp.jpeg
 bio: 电影爱好者、NBA云球迷、无党派白学家、MLsys打工人
 organization:
@@ -31,4 +31,4 @@ NBA云球迷 —— 没时间看直播只能~~刷刷虎扑~~（现在刷yahoo sp
 
 无党派白学家 —— 白色相簿什么的，已经无所谓了，因为已经不再有歌，值得去唱了，传达不到的恋情，已经不需要了，因为已经不再有人，值得去爱了。
 
-~~computer sys拥趸~~ All in AI ing~（但也是ML Infra(`へ´*)ノ） —— 造过内核，写过Compiler，编过AOSP，撸过k8s，在[startup](https://risingwave.com/)，和一些[大](https://www.microsoft.com/en-us/dynamics-365) [厂](https://www.bytedance.com/en/)，[中国top1 Sys组](https://ipads.se.sjtu.edu.cn/)以及Northeastern Univ. Sys里搬过砖。
+~~computer sys拥趸~~ All in ML ing~（但也是MLSys (`へ´*)ノ） —— 造过内核，写过Compiler，编过AOSP，撸过k8s，在[startup](https://risingwave.com/)，和一些[大](https://www.microsoft.com/en-us/dynamics-365) [厂](https://www.bytedance.com/en/)([1](https://www.google.com/), [2](https://team.doubao.com/en/))，[中国top1 Sys组](https://ipads.se.sjtu.edu.cn/)以及Northeastern Univ. Sys里搬过砖。
