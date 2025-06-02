@@ -1,19 +1,16 @@
 ---
 title: WindowsXp
 draft: false
-role: 计算机科学 硕士二年级
-avatar: ../img/wxp.jpeg
+role: 拧螺丝
+avatar: ../img/my_avatar.png
 bio: 电影爱好者、NBA云球迷、无党派白学家、MLsys打工人
 organization:
-  name: 做鸡鸭男子职业技工学院
-  url: https://www.gatech.edu/
+  name: 🍌厂某LLM车间
+  url: https://labs.amazon.science/
 social:
   - icon: github
     iconPack: fab
     url: https://github.com/WindowsXp-Beta
-  - icon: zhihu
-    iconPack: fab
-    url: https://www.zhihu.com/people/xpho
   - icon: linkedin-in
     iconPack: fab
     url: https://www.linkedin.com/in/william-xp-wei

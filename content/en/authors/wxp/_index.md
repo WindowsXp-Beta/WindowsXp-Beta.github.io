@@ -3,7 +3,7 @@
 title: Xinpeng Wei (Outdated)
 role: Junior
 bio: Fan of movies、Cloud fan of NBA、Galgamer、Love coding
-avatar: img/wxp.jpeg
+avatar: img/my_avatar.png
 
 organization:
   name: Shanghai Jiao Tong University
